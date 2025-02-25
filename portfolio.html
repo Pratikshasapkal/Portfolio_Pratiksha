@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Pratiksha Gopal Sapkal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="container container-fluid">
+            <h1>Pratiksha Gopal Sapkal</h1>
+            <nav>
+                <!-- Hamburger Button -->
+                <button class="hamburger-menu" onclick="toggleMenu()">☰</button>
+                <ul class="header nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container-fluid">
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <img src="images/Finance.png"Personal Finance Tracker" class="project-pic">
+                <div class="project-info">
+                    <h4>Personal Finance Tracker</h4>
+                    <p>Developed a web-based application using Laravel, MySQL, HTML, CSS, and JavaScript to manage and track personal finances. Implemented features like user authentication, CRUD operations for income and expenses, responsive UI, and secure data handling. Optimized database queries for performance and designed an intuitive interface to provide users with actionable insights into their financial activities.</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="images/spaceexplorationsimulation.png" alt="Space Exploration Simulation" class="project-pic">
+                <div class="project-info">
+                    <h4>Space Exploration Simulation</h4>
+                    <p>Educational space exploration platform that enables users to learn about celestial bodies, stay updated on space news, and explore curated images and information about the cosmos in an immersive and engaging way.</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="images/Foogaa.png" alt="Foogaa" class="project-pic">
+                <div class="project-info">
+                    <h4>Foogaa</h4>
+                    <p>Contributed to a live web development project for a chemist store, focusing on backend development and database management. Collaborated with the design team to ensure a seamless user experience and responsive design.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <p>&copy; 2025 Pratiksha Gopal Sapkal.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        ScrollReveal().reveal('.projects', { duration: 1000, delay: 200, origin: 'bottom', distance: '50px' });
+        ScrollReveal().reveal('.project-item', { duration: 1000, delay: 400, origin: 'bottom', distance: '50px' });
+    </script>
+</body>
+</html>
